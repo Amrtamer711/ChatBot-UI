@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: rgb(232, 236, 241);
+    background: -webkit-linear-gradient(to right, rgb(221, 232, 243), rgb(241, 243, 246));
+    background: linear-gradient(to right, rgb(221, 232, 243), rgb(241, 243, 246));
+}
+
+.chat {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90%;
+}
+
+.card {
+    height: 500px;
+    border-radius: 15px !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contacts_body, .msg_card_body {
+    padding: 0.75rem 0 !important;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+.card-header, .card-footer {
+    border-radius: 15px 15px 0 0 !important;
+    background-color: #f7f7f7 !important;
+}
+
+.container {
+    align-content: center;
+}
+
+.search, .type_msg {
+    border-radius: 15px;
+    background-color: rgba(240, 240, 240, 0.8) !important;
+    border: 0 !important;
+    color: black !important;
+}
+
+.attach_btn, .send_btn, .search_btn {
+    border-radius: 15px;
+    background-color: #007bff !important;
+    color: white !important;
+}
+
+.contacts li {
+    padding: 5px 10px;
+    margin-bottom: 15px !important;
+    background-color: #f8f8f8;
+}
+
+.active {
+    background-color: #007bff;
+}
+
+.user_img, .user_img_msg {
+    height: 45px;
+    width: 45px;
+    border: 1.5px solid #d6d6d6;
+}
+
+.img_cont, .img_cont_msg {
+    height: 45px;
+    width: 45px;
+}
+
+.online_icon, .offline {
+    border: 1.5px solid white;
+}
+
+.user_info span {
+    font-size: 16px;
+    color: black;
+}
+
+.user_info p {
+    font-size: 12px;
+    color: black;
+}
+
+.video_cam span, .action_menu ul li i {
+    color: black;
+}
+
+.msg_cotainer, .msg_cotainer_send {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #e2e2e2;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 20px; /* Adjusted padding */
+}
+
+.msg_time, .msg_time_send {
+    position: absolute;
+    bottom: 5px; /* Adjusted bottom positioning */
+    font-size: 10px;
+    width: 100%;
+    color: rgba(128, 92, 92, 0.856);
+}
+
+.msg_time {
+    left: 10px; /* Align left within the container */
+    text-align: left;
+}
+
+.msg_time_send {
+    right: 10px; /* Align right within the container */
+    text-align: right;
+}
+
+.action_menu {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.action_menu ul li:hover {
+    background-color: rgba(230, 230, 230, 0.3);
+}
+
+@media (max-width: 576px) {
+    .contacts_card {
+        margin-bottom: 15px !important;
+    }
+}
