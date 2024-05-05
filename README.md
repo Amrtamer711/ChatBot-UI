@@ -17,7 +17,7 @@ ChatBot that allows users to communicate with LLM. It uses the Python library Fl
 
 4. At the home screen, enter text and wait for a reply (It may take a while depending on the LLM used and the type of machine it is running on):
 
-![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/fbd4cd0c-672e-4513-a12f-86d0ee5212b2)
+![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/4a2ca167-4a87-4a63-889b-7283a494ae3e)
 
 ## Home Screen:
 ![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/deae33d6-9083-4067-9814-9424e819fea1)
