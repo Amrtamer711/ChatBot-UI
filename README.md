@@ -6,3 +6,5 @@ ChatBot that allows users to communicate with LLM. It uses the Python library Fl
 
 ## Home Screen:
 ![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/deae33d6-9083-4067-9814-9424e819fea1)
+
+Note: Outputs from the conversation depend on the complexity of the LLM used. The LLM DistilGPT-2, a very small LLM. Changing the LLM is very easy by simpley changing the model_name variable to another HuggingFace LLM keyword.
