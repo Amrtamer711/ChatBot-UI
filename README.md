@@ -28,4 +28,4 @@ Outputs from the conversation depend on the complexity of the LLM used. The LLM 
 
 ## Report
 
-Report project is avaialble in `report.docx`
+Project report is avaialble in `report.docx`
