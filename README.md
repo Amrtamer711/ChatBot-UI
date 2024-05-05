@@ -28,4 +28,4 @@ Outputs from the conversation depend on the complexity of the LLM used. The LLM 
 
 ## Report
 
-Project report is avaialble in [`report.docx`](https://github.com/Amrtamer711/ChatBot-UI/blob/main/report.docx)
+Project report is avaialble in [`report.docx`](https://github.com/Amrtamer711/ChatBot-UI/blob/main/report.pdf)
