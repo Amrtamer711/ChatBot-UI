@@ -7,7 +7,7 @@ To execute the code, simply clone the repository, go to your preferred Python te
 
 ![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/3fe949d8-6b82-4ec9-8b9c-73df1d74aa70)
 
-## Command prompt:
+## Command Prompt Execution:
 ![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/ae59a168-d8dd-42c2-a27d-9d181a0ff3d9)
 
 ## Home Screen:
