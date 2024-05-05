@@ -40,7 +40,7 @@ def getReply(text):
         eos_token_id=tokenizer.eos_token_id
       ) # generating outputs from inputs
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True) # retrieving text from tokenized outputs
-    response = generated_text[len(prompt):].strip()
+    response = generated_text[len(prompt):].strip() if generated_text[:len(prompt)] == prompt else generated_text
     return response
 
 if __name__ == "__main__":
