@@ -78,6 +78,25 @@
           			event.preventDefault();
           		});
         	});
+			function formatMessages() {
+			var messages = document.querySelectorAll('.msg_cotainer, .msg_cotainer_send');
+			messages.forEach(function(message) {
+				let words = message.textContent.split(' ');
+				let formattedText = '';
+				const wordsPerLine = 10;  // Change this to set how many words per line you want
+
+				for (let i = 0; i < words.length; i++) {
+					formattedText += words[i] + ' ';
+					if ((i + 1) % wordsPerLine === 0) {
+						formattedText += '<br>';  // Add a line break every 'wordsPerLine' words
+					}
+				}
+
+				message.innerHTML = formattedText;
+			});
+		}
+
+		document.addEventListener('DOMContentLoaded', formatMessages);
       	</script>
     </div> 
   </body>
