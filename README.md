@@ -3,13 +3,13 @@ ChatBot that allows users to communicate with LLM. It uses the Python library Fl
 
 ## Tutorial:
 
-To execute the code, simply clone the repository, go to your preferred Python terminal and execute the code using `python app.py`
+1. To execute the code, simply clone the repository, go to your preferred Python terminal and execute the code using `python app.py`
 
 ![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/3fe949d8-6b82-4ec9-8b9c-73df1d74aa70)
 
-Go to the link provided by Flask and CTRL + Click on the link
+2. Go to the link provided by Flask and CTRL + Click on the link
 
-You should then see a screen similar to this at your command prompt:
+3. You should then see a screen similar to this at your command prompt:
 
 ![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/ae59a168-d8dd-42c2-a27d-9d181a0ff3d9)
 
