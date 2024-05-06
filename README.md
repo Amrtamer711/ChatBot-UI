@@ -28,7 +28,7 @@ Outputs from the conversation depend on the complexity of the LLM used. The LLM 
 
 ## Report
 
-Project report is available in [`report.docx`](https://github.com/Amrtamer711/ChatBot-UI/blob/main/report.pdf)
+Project report is available in [`report.pdf`](https://github.com/Amrtamer711/ChatBot-UI/blob/main/report.pdf)
 In the report, we customized the ChatBot to be more specific to the project requirements, focusing more on UAE students' needs. The ChatBot is now named as "Khalifa", an Emirati virtual teacher. We also used the TII, a UAE based tech company, LLM Falcon 7B parameter model with the keyword `tiiuae/falcon-7b`
 
 ![WhatsApp Image 2024-05-06 at 22 57 15_d1c3677b](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/a0f87d69-3124-4b67-aaf3-447d37abc13d)
