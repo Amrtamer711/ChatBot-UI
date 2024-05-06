@@ -2,11 +2,11 @@
 ChatBot that allows users to communicate with LLM. It uses the Python library Flask to link an HTML file page, which uses a CSS file to design the page, with a Python script. The HTML file creates the website and the user can enter text through the text block and submit it to the ChatBot. The text is then retrieved from the HTML page to the Python script via Flask, prompted to an LLM and the output is sent back to the HTML page to be placed as a response, simulating a conversation.  
 ## Tutorial:
 
-1. To execute the code, simply clone the repository, go to your preferred Python terminal and execute the code using `python app.py`
+1. To execute the code, simply clone the repository, go to your preferred Python terminal and execute the code using `python app.py`:
 
 ![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/3fe949d8-6b82-4ec9-8b9c-73df1d74aa70)
 
-2. Go to the link provided by Flask and CTRL + Click on the link
+2. Go to the link provided by Flask and CTRL + Click on the link:
 
 ![image](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/7a5faeb0-f10a-4fe3-9edb-b009de90884f)
 
@@ -29,7 +29,7 @@ Outputs from the conversation depend on the complexity of the LLM used. The LLM 
 ## Report
 
 Project report is available in [`report.pdf`](https://github.com/Amrtamer711/ChatBot-UI/blob/main/report.pdf)
-In the report, we customized the ChatBot to be more specific to the project requirements, focusing more on UAE students' needs. The ChatBot is now named as "Khalifa", an Emirati virtual teacher. We also used the TII, a UAE based tech company, LLM Falcon 7B parameter model with the keyword `tiiuae/falcon-7b`
+In the report, we customized the ChatBot to be more specific to the project requirements, focusing more on UAE students' needs. The ChatBot is now named as "Khalifa", an Emirati virtual teacher. We also used the TII, a UAE based tech company, LLM Falcon 7B parameter model with the keyword `tiiuae/falcon-7b`.
 
 ![WhatsApp Image 2024-05-06 at 22 57 15_d1c3677b](https://github.com/Amrtamer711/ChatBot-UI/assets/131773782/a0f87d69-3124-4b67-aaf3-447d37abc13d)
 
